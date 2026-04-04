@@ -1,4 +1,4 @@
-module EC61_TB();
+module Traffic_light_Control_Testbench();
     reg clk, rst, car;
     wire HG, HY, HR, FG, FR, FY;
     wire[2:0] state;
