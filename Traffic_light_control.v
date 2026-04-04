@@ -1,5 +1,5 @@
 
-module EC61(clk, rst, car, HG, HY, HR, FG, FR, FY);
+module Traffic_light_control(clk, rst, car, HG, HY, HR, FG, FR, FY);
     input clk, rst, car;
     output reg HG, HY, HR, FG, FR, FY;
     reg [2:0] state;
